@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>Random Word</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="vh-100 d-flex align-items-center">
+     <div class="mx-auto" text-center>
+      <p>{{word}}</p>
+      <p>COUNTER: {{request.session.counter}} </p>
+      <a href="/generate" class='btn btn-primary'>Generate Word</a>
+      <a href="/reset" class='btn btn-danger'>Reset</a>
+
+     </div>
+    </div>
+   </body>
+
+</html>
